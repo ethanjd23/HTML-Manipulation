@@ -45,7 +45,6 @@ $("Document").ready(function() {
     $listButton.click(function() {
         if (buttonPress <= 9) {
             $friendList.append(`<li>${friendArray[buttonPress]}</li>`);
-            console.log(buttonPress);
             buttonPress++;
         } else {
             buttonPress = 0;
